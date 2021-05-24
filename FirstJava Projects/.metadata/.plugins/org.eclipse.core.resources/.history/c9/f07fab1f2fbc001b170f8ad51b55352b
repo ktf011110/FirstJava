@@ -1,0 +1,21 @@
+
+//자바의 3대 생략 요소
+//(1) extends Object
+
+class A extends Object{
+	
+	public A(){ //생성자 
+		System.out.println("A클래스 생성자 실행");
+	}
+	
+}
+
+public class OOPEx3 {
+
+	public static void main(String[] args) {
+		
+		A a = new A(); //new A() 부분이 생성자 호출임.
+
+	}
+
+}

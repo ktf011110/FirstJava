@@ -1,0 +1,25 @@
+
+//자바의 3대 생략 요소
+//(1) extends Object
+
+class A {
+
+}
+class B extends A {
+	
+}
+
+// (1) A a = new A();
+// (2) B b = new B();
+// (3) A a = new B();
+// (4) B b = new A();
+
+public class OOPEx3 {
+
+	public static void main(String[] args) {
+		
+		A a = new A(); //new A() 부분이 생성자 호출임.
+
+	}
+
+}
