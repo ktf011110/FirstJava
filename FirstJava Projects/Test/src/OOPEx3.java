@@ -2,6 +2,8 @@
 //자바의 3대 생략 요소
 //(1) extends Object
 
+//임의 수정 - 이클립스 깃허브 연동 테스트
+
 class A {
 	public A() {
 		System.out.println("A 클래스 생성");
